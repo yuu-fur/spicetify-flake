@@ -459,6 +459,26 @@
         },
         "version": "253ae45d2cac2dc3d92a43193ea8f6d9e7e1d3aa"
     },
+    "onekoSrc": {
+        "cargoLocks": null,
+        "date": "2024-07-06",
+        "extract": null,
+        "name": "onekoSrc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "589a8cc3a3939b8c9fc4f2bd087ed433e9af5002",
+            "sha256": "sha256-lestrf4sSwGbBqy+0J7u5IoU6xNKHh35IKZxt/phpNY=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://github.com/kyrie25/spicetify-oneko"
+        },
+        "version": "589a8cc3a3939b8c9fc4f2bd087ed433e9af5002"
+    },
     "orchisSrc": {
         "cargoLocks": null,
         "date": "2022-05-20",

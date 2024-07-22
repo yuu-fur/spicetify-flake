@@ -323,6 +323,20 @@
     };
     date = "2023-01-20";
   };
+  onekoSrc = {
+    pname = "onekoSrc";
+    version = "589a8cc3a3939b8c9fc4f2bd087ed433e9af5002";
+    src = fetchgit {
+      url = "https://github.com/kyrie25/spicetify-oneko";
+      rev = "589a8cc3a3939b8c9fc4f2bd087ed433e9af5002";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-lestrf4sSwGbBqy+0J7u5IoU6xNKHh35IKZxt/phpNY=";
+    };
+    date = "2024-07-06";
+  };
   orchisSrc = {
     pname = "orchisSrc";
     version = "5bf3fcf0696514dcf3e95f4ae3fd00261ccc5dcc";
