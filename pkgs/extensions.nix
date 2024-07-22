@@ -5,6 +5,11 @@
 }:
 with source; let
   # EXTENSIONS ----------------------------------------------------------------
+  oneko = {
+    src = onekoSrc;
+    filename = "oneko.js";
+  };
+  
   brokenAdblock = {
     src = spotifyNoPremiumSrc;
     filename = "adblock.js";
@@ -19,7 +24,7 @@ with source; let
     filename = "fullScreen.js";
   };
   autoSkip = {
-    src = "${dakshExtensions}/Extensions/auto-skip/dist";
+src = "${dakshExtensions}/Extensions/auto-skip/dist";
     filename = "autoSkip.js";
   };
   playNext = {
@@ -217,6 +222,7 @@ in
   // mkExtAlias "powerBar.js" powerBar
   // mkExtAlias "groupSession.js" groupSession
   // mkExtAlias "brokenAdblock.js" brokenAdblock # this is old but you can still use it if you need
+  // appendJS oneko 
   // appendJS groupSession
   // appendJS powerBar
   // appendJS seekSong

@@ -1,3 +1,7 @@
+[onekoSrc]
+src.git = "https://github.com/kyrie25/spicetify-oneko"
+fetch.git = "https://github.com/kyrie25/spicetify-oneko"
+
 [spotifywmSrc]
 src.git = "https://github.com/dasJ/spotifywm"
 fetch.git = "https://github.com/dasJ/spotifywm"
