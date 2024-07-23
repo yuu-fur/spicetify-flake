@@ -6,11 +6,11 @@ Extensions can be referenced like so:
 
 ## Official Extensions
 
-### Star Ratings
+### star-ratings
 
 Add star ratings to Spotify
 
-### Eneko
+### oneko
 
 cat follow mouse real.
 oneko with additional features made for spicetify.
