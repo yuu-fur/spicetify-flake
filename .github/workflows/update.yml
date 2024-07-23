@@ -37,8 +37,10 @@ jobs:
       run: nix flake metadata --impure
 
     - name: Build nix packages
-      run: nix build .#checks.x86_64-linux.default --impure -v
-
+      run: | 
+        nix build .#checks.x86_64-linux.default --impure -v
+        git fetch origin master
+    
     - name: Push updates
       if: ${{ success() }}
       uses: stefanzweifel/git-auto-commit-action@v4
