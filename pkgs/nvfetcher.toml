@@ -1,3 +1,8 @@
+[starRatingsSrc]
+src.git = "https://github.com/brimell/spicetify-star-ratings"
+fetch.git = "https://github.com/brimell/spicetify-star-ratings"
+
+
 [onekoSrc]
 src.git = "https://github.com/kyrie25/spicetify-oneko"
 fetch.git = "https://github.com/kyrie25/spicetify-oneko"

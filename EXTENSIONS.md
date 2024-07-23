@@ -6,6 +6,15 @@ Extensions can be referenced like so:
 
 ## Official Extensions
 
+### Star Ratings
+
+Add star ratings to Spotify
+
+### Eneko
+
+cat follow mouse real.
+oneko with additional features made for spicetify.
+
 ### fullAppDisplay
 
 Shows the song cover, title, and artist in fullscreen.
