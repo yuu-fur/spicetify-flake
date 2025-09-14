@@ -621,7 +621,7 @@
     },
     "starRatingsSrc": {
         "cargoLocks": null,
-        "date": "2025-08-23",
+        "date": "2025-09-13",
         "extract": null,
         "name": "starRatingsSrc",
         "passthru": null,
@@ -631,13 +631,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "d4dca612ab496dbe969ff1fe043e2b4ec0db6010",
-            "sha256": "sha256-OwwnxMBU5NACdyojWzuMvKZ8vJoFQdPWXB/pzPexwas=",
+            "rev": "e75e7f0fea8afa640d7f43c28800ac3d6363f65d",
+            "sha256": "sha256-Z5Xcx+zRfNUUsOJQNHenFSo1Yznun2S2nlO4AVcO/9I=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://github.com/brimell/spicetify-star-ratings"
         },
-        "version": "d4dca612ab496dbe969ff1fe043e2b4ec0db6010"
+        "version": "e75e7f0fea8afa640d7f43c28800ac3d6363f65d"
     },
     "startPageSrc": {
         "cargoLocks": null,

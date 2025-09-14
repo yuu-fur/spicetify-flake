@@ -437,17 +437,17 @@
   };
   starRatingsSrc = {
     pname = "starRatingsSrc";
-    version = "d4dca612ab496dbe969ff1fe043e2b4ec0db6010";
+    version = "e75e7f0fea8afa640d7f43c28800ac3d6363f65d";
     src = fetchgit {
       url = "https://github.com/brimell/spicetify-star-ratings";
-      rev = "d4dca612ab496dbe969ff1fe043e2b4ec0db6010";
+      rev = "e75e7f0fea8afa640d7f43c28800ac3d6363f65d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-OwwnxMBU5NACdyojWzuMvKZ8vJoFQdPWXB/pzPexwas=";
+      sha256 = "sha256-Z5Xcx+zRfNUUsOJQNHenFSo1Yznun2S2nlO4AVcO/9I=";
     };
-    date = "2025-08-23";
+    date = "2025-09-13";
   };
   startPageSrc = {
     pname = "startPageSrc";
